@@ -1,0 +1,48 @@
+{
+  "name": "check-empty-value",
+  "version": "1.0.0",
+  "description": "A tiny utility to check if a value is empty (null, undefined, '', [], {}).",
+  "author": "Nana Kwesi Ofosu-Aikins <nanaaikinson24@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nanaaikinson/check-empty-value.git"
+  },
+  "homepage": "https://github.com/yourusername/check-empty-value#readme",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "unpkg": "./dist/index.umd.cjs",
+  "jsdelivr": "./dist/index.umd.cjs",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "clean": "rimraf dist",
+    "test": "vitest",
+    "test:coverage": "vitest run --coverage"
+  },
+  "keywords": [
+    "is-empty",
+    "check-empty-value",
+    "empty",
+    "validation",
+    "utility"
+  ],
+  "devDependencies": {
+    "@types/node": "^24.5.2",
+    "@vitest/coverage-v8": "^3.2.4",
+    "tsup": "^8.5.0",
+    "typescript": "~5.8.3",
+    "vite": "^7.1.6",
+    "vitest": "^3.2.4"
+  }
+}
