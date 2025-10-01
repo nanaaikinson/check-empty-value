@@ -8,7 +8,7 @@
     "type": "git",
     "url": "https://github.com/nanaaikinson/check-empty-value.git"
   },
-  "homepage": "https://github.com/yourusername/check-empty-value#readme",
+  "homepage": "https://github.com/nanaaikinson/check-empty-value#readme",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
